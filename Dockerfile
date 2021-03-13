@@ -10,4 +10,4 @@ COPY ${JAR_FILE} football-1.0.0.0.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","football.jar"]
+ENTRYPOINT ["java","-jar","football-1.0.0.0.jar"]
